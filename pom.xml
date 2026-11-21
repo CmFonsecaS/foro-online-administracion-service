@@ -61,6 +61,12 @@
             <artifactId>spring-security-oauth2-jose</artifactId>
         </dependency>
 
+        <!-- Health check usado por el despliegue en EC2 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- Oracle JDBC y dependencias para Wallet -->
         <dependency>
             <groupId>com.oracle.database.jdbc</groupId>
